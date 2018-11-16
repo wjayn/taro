@@ -1,0 +1,14 @@
+{
+  "extends": ["taro"],
+  "rules": {
+    "no-unused-vars": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+    "react/no-string-refs": 0,
+    "react/jsx-space-before-closing": 0,
+    "react/jsx-closing-bracket-location": 0
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "BASE_URL": false
+  }
+}
