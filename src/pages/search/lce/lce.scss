@@ -1,0 +1,52 @@
+@import "../../../color";
+$center-x: 325px;
+$center-y: 255px;
+$radius: 25px;
+.error-view{
+  min-height: 100%;
+  text-align: center;
+  .error-img{
+    margin-top: 200px;
+    width: 250px;
+    height: 221px;
+  }
+  .message{
+    margin-top: 60px;
+    font-size: 36px;
+    color: $h4-color;
+  }
+  .retry{
+    font-size: 28px;
+    margin-top: 10px;
+    color: $h4-color;
+  }
+}
+
+.loading-view{
+  min-height: 100%;
+  text-align: center;
+  .query-bg{
+    width: 271px;
+    height: 276px;
+    margin-top: 200px;
+  }
+  .query-icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: marquee 5s ease infinite;
+  }
+  @keyframes marquee
+  {
+    0%   {left:$center-x; top:$center-y;}
+    25%  {left:$center-x + $radius; top:$center-y - $radius;}
+    50%  {left:$center-x + (2 *$radius); top:$center-y;}
+    75%  {left:$center-x + $radius; top:$center-y + $radius;}
+    100% {left:$center-x; top:$center-y;}
+  }
+  .query-hint{
+    font-size: 36px;
+    margin-top: 200px;
+    color: $h4-color;
+  }
+}

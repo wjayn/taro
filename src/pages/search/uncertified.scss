@@ -1,0 +1,78 @@
+.unCertified {
+  position: relative;
+  padding-top: 80px;
+  min-height: 100%;
+  background: #ffffff;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: PingFang-SC-Regular,'Helvetica Neue',Helvetica,'microsoft yahei',sans-serif;
+  //公共样式
+  .flex {
+    display: flex;
+  }
+
+  .flex.hc {
+    justify-content: center;
+  }
+  .flex.hb {
+    justify-content: space-between;
+  }
+
+  .flex.vc {
+    align-items: center;
+  }
+  .flex .shrink0{
+    flex-shrink: 0;
+  }
+  input{
+    display: block;
+    outline: none;
+    border: 0;
+  }
+  .placeholder{
+    color: #929292;
+    font-family: PingFang-SC-Regular,'Helvetica Neue',Helvetica,'microsoft yahei',sans-serif;
+  }
+  // 输入框
+  .input-item {
+    width: 72%;
+    height: 80px;
+    margin: 0 auto 1.125rem;
+    padding: 0 36px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 28px;
+    box-sizing: border-box;
+    &>input{
+      height: 80px;
+      line-height: 80px;
+    }
+    .verify-pic{
+      width:160px;
+      height:60px;
+      background: #6bd2cf;
+    }
+  }
+  //提示语
+  .prompt {
+    width: 72%;
+    margin: 60px auto 0;
+    line-height: 44px;
+    font-size: 28px;
+  }
+
+  //底部按钮框
+  .bot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    .btn {
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      font-size: 36px;
+    }
+  }
+}

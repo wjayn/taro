@@ -1,0 +1,81 @@
+@import "color";
+
+page, .taro_page {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.default-background-color {
+  background-color: #f2f2f2;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.highlight-color {
+  color: $highlight-color;
+}
+
+.status-color {
+  color: $status-color;
+}
+
+.accent-color {
+  color: $accent-color;
+}
+
+.h2-color {
+  color: $h2-color;
+}
+
+.h4-color {
+  color: $h4-color;
+}
+
+.h6-color {
+  color: $h6-color;
+}
+
+.h8-color {
+  color: $h8-color;
+}
+
+.border-color {
+  border-color: $border-color;
+}
+
+.input-border-color {
+  border-color: $input-border-color
+}
+
+.input-color {
+  color: $input-color
+}
+
+.btn-bg-color {
+  background-color: $btn-bg-color
+}
+
+.btn-color {
+  color: $btn-color
+}
+
+.more-color {
+  color: $more-color;
+}
+
+.card-caption-color {
+  color: $primary-color;
+}
+
+.card-bg-color {
+  background-color: $card-bg-color;
+}
+
+.card-default-color {
+  color: $card-default-color
+}

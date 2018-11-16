@@ -1,0 +1,126 @@
+
+.bind_view_root {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  border-top:1px solid #F2F2F2;
+}
+
+.bind_view_top_60 {
+  padding-top: 60px;
+}
+
+.bind_view_top_110 {
+  padding-top: 110px;
+}
+
+.bind_view_input {
+  margin-left: 28px;
+  margin-right: 28px;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+.bind_view_flex_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bind_justify_content_center {
+  justify-content: center;
+}
+
+.bind_input {
+  width: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 28px;
+}
+
+
+.bind_view_btn {
+  width:100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 9999;
+  bottom:0px;
+
+}
+
+.bind_btn_text {
+  font-size:32px;
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  line-height: 100px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.bind_btn_sure {
+  background-color: #2F4E87;
+}
+
+.bind_btn_apply {
+  background-color: #E88F10;
+}
+
+.bind_logo {
+  width: 40px;
+  height: 40px;
+  padding-left: 32px;
+}
+
+.bind_explain_logo {
+  width: 40px;
+  height: 40px;
+  padding-right: 60px;
+  position: absolute;
+  right: 0;
+}
+
+.bind_text_26 {
+  font-size: 26px;
+}
+
+.bind_text_2F4E87 {
+  color: #2F4E87;
+}
+
+.bind_text_underline {
+  text-decoration:underline;
+}
+
+.bind_text_D83734 {
+  color: #d83734;
+}
+
+.bind_view_tip {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bind_text_tip {
+  align-self: center;
+  padding-top: 16px;
+}
+
+.bind_view_countdown {
+  position: absolute;
+  right: 0;
+  padding-right: 60px;
+}
+
+.bind_count_down_text {
+  font-size: 28px;
+  color: #2F4E87;
+  text-align: center;
+}

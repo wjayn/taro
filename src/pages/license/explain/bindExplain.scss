@@ -1,0 +1,31 @@
+
+.bind_explain_view_root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  align-items: center;
+}
+
+.bind_explain_view_agree {
+  position: absolute;
+  bottom:0;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bind_explain_text_content {
+  font-size: 28px;
+  padding: 90px;
+  color: #444;
+}
+
+
+.bind_explain_agree {
+  font-size: 28px;
+  color: #444;
+}

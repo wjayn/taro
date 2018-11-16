@@ -1,0 +1,101 @@
+.index_flex {
+  display: flex;
+}
+
+.index_root
+{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.index_root_bg
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.index_root .index_police_logo{
+  width:80%;
+  height: auto;
+  padding-top: 22%;
+}
+
+.index_view_button {
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 20%;
+}
+
+
+.index_text_white {
+  color: #FFFFFF;
+}
+
+.index_btn_tip {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.index_margin_top_10{
+  margin-top: 10px;
+}
+
+.index_view_buttom {
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index_common_problem
+{
+  color: #0018F6;
+  font-size: 30px;
+  text-decoration: underline;
+  padding-right: 25%;
+  align-self: flex-end;
+  margin-top: 30px;
+}
+.index_plice_introduce
+{
+  font-size: 24px;
+}
+
+.index_police_name {
+  margin-top: 8%;
+}
+
+.index_name_title {
+  font-size: 40px;
+}
+
+.index_text_btn {
+  width: 454px;
+  height: 80px;
+  border-radius: 8px;
+  text-align: center;
+  margin:0 auto;
+  line-height: 80px;
+  font-size: 32px;
+}
+
+
+.index_view_button .index_btn_adjudge {
+  background-color: #2F4E87;
+
+}
+
+.index_view_button .index_btn_unadjudge {
+  background-color: #E88F10;
+  margin-top: 5%;
+}
+
+.logo_tongchuan {
+  width: 120px;
+}

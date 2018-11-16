@@ -1,0 +1,141 @@
+.ver_det_bigBox {
+  display: block;
+  min-height: 100%;
+  background: #e0e0e0;
+
+  //prompt
+
+  .ver_det_prompt {
+    display: flex;
+    flex-direction: row;
+    padding: 64px 20px;
+    align-items: center;
+    .prompt_img {
+      flex: 1;
+      width: 44px;
+      height: 44px;
+      margin: 0 10px;
+    }
+    .prompt_text {
+      flex: 12;
+      font-size: 28px;
+      color: #2f4e87;
+    }
+
+  }
+  //ver_det_content
+
+  .ver_det_content {
+    padding-bottom: 110px;
+
+    .ver_det_plate {
+      padding: 20px 50px;
+      .ver_det_plate_text {
+        font-size: 30px;
+      }
+    }
+    .ver_det_illegal {
+      position: relative;
+      padding: 0 40px 30px 40px;
+      margin-bottom: 80px;
+
+      .illegal_details {
+        background: #fff;
+        border-radius: 10px;
+
+        .illegal_detail_view {
+          font-size: 30px;
+          color: #999;
+          padding: 25px 20px;
+          .illegal_details_text {
+            margin-right: 20px;
+          }
+        }
+        .illegal_car {
+          background: #2f4e87;
+          color: #ffffff;
+          border-radius: 10px 10px 0 0;
+        }
+
+        .redText {
+          color: #f00;
+        }
+        .greenText {
+          color: #729f63;
+        }
+
+        .illegal image {
+          width: 54px;
+          height: 54px;
+          position: absolute;
+          right: 56px;
+          top: 18px;
+        }
+      }
+    }
+    .ver_det_select_img {
+      width: 54px;
+      height: 54px;
+      position: absolute;
+      right: 56px;
+      top: 18px;
+    }
+    .ver_det_noIllegal {
+      margin: 200px auto;
+      text-align: center;
+      color: #999;
+    }
+  }
+
+  //button
+  .ver_det_bottom_way {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 110px;
+    width: 100%;
+    line-height: 110px;
+    z-index: 99;
+    background: #fff;
+    font-size: 34px;
+    .ver_det_total {
+      float: left;
+      text-align: right;
+      width: 60%;
+      .ver_det_mr-50 {
+        margin-right: 50px;
+      }
+    }
+
+    .ver_det_payment {
+      width: 40%;
+      float: left;
+      text-align: center;
+      background: #2f4e87;
+      color: #fff;
+      border: none;
+      border-radius: 0;
+      height: 110px;
+      line-height: 110px;
+    }
+
+    .ver_det_payment::after {
+      border-radius: 0;
+      border: none;
+    }
+
+  }
+}
+
+.bg-white {
+  background: white;
+}
+
+.bg-gray {
+  background: #efefef;
+}
+
+
+
+
+

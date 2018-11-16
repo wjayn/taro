@@ -1,0 +1,111 @@
+@import "../../color";
+.search-result-bg{
+  min-height: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  box-sizing:border-box;
+}
+.search-result-top-hint{
+  font-size: 28px;
+  margin-left: 60px;
+}
+.search-result-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+}
+.search-result-list-header{
+  margin: 20px 60px;
+}
+.search-result-user-view{
+  font-size: 24px;
+  color: $h8-color;
+}
+.search-result-switch-user{
+  font-size: 30px;
+  margin-right: 60px;
+  margin-left: 20px;
+  color: $primary-color;
+}
+.search-result-no-process-header{
+
+}
+
+.search-result-item-alert{
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+}
+.search-result-item-bg{
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px 0 30px;
+  margin: 0 20px 20px;
+  position: relative;
+}
+.search-result-details{
+  font-size: 30px;
+  margin: 10px 30px;
+}
+.search-result-item-header{
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px 30px;
+  border-bottom: solid 1px $border-color;
+  margin-bottom: 30px;
+  .illegal-time{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .row-align-center{
+    display: flex;
+    align-items: center;
+  }
+  .status-tip{
+    border-radius:50%;
+    width:8px;
+    height:8px;
+    margin-right: 10px;
+  }
+  .status-0{
+    background: $highlight-color;
+  }
+  .status-1{
+    background: $primary-color;
+  }
+  .status-2{
+    background: $status-color;
+  }
+}
+.search-result-process-btn{
+  width:240px;
+  border:solid 2px $primary-color;
+  line-height: unset;
+  font-size:28px;
+  padding:10px 0;
+  justify-content:center;
+  display:flex;
+  border-radius:8px;
+  background-color: #ffffff;
+  position:absolute;
+  right:20px;
+  bottom:40px;
+}
+.search-result-disabled-process{
+  border:solid 2px $h8-color;
+}
+.search-result-bottom-btn{
+  width: 100%;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  color: #fff;
+  background-color: $primary-color;
+  position: fixed;
+  bottom: 0;
+}

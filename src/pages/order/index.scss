@@ -1,0 +1,74 @@
+.ord_index {
+  width: 100%;
+  min-height: 100%;
+  //提示语
+  .ord_prompt {
+    width: 90%;
+    padding: 30px 0;
+    margin: auto;
+    line-height: 44px;
+    font-size: 28px;
+  }
+  .ord_details_list{
+    padding-bottom: 120px;
+    //订单详情
+    .ord_details {
+      width: 94%;
+      padding-bottom: 20px;
+      margin: 0 auto 30px;
+      border-radius: 10px;
+      position: relative;
+      font-size: 30px;
+      .ord_detail_view {
+        padding: 10px 30px;
+        display: flex;
+        &:nth-of-type(1) {
+          font-weight: bold;
+          line-height: 70px;
+          border-bottom: 1px solid #e0e0e0;
+          margin-bottom: 20px;
+        }
+        .ord_detail_l_text {
+          flex: 2;
+        }
+        .ord_detail_r_text {
+          flex: 5;
+        }
+      }
+
+      //右边的订单状态
+      .ord_detail_state {
+        position: absolute;
+        top: 0;
+        right: 40px;
+        line-height: 90px;
+        .ord_origin {
+          width: 12px;
+          height: 12px;
+          border-radius: 100%;
+          display: inline-block;
+          background: #008000;
+          margin: 6px 16px;
+        }
+        .red {
+          background: #d83734;
+        }
+      }
+    }
+  }
+
+  //底部按钮框
+  .ord_bot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    .ord_btn {
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      font-size: 36px;
+    }
+  }
+}
+
